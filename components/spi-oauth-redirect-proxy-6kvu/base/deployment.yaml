@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: spi-oauth-redirect-proxy-6kvu
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads-stage/rh-ee-abarbaro-tenant/spi-oauth-redirect-proxy/spi-oauth-redirect-proxy-6kvu@sha256:faf3a681d2607ffc64f1d2304eb0ad3f52d538dc73ac6f2e6130103c978990c9
         imagePullPolicy: Always
         name: container-image
         ports:
