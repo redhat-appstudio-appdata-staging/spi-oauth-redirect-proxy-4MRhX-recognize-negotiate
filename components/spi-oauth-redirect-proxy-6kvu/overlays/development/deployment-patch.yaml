@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: spi-oauth-redirect-proxy-6kvu
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
